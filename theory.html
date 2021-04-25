@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css" />
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css" />
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+    <header class="vlabs-header sticky-top bg-white">
+      <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+        
+        <button class="navbar-toggler px-4"
+        	    type="button" onclick="toggle()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="d-flex justify-content-center">        
+          <a href="http://vlab.co.in" class="navbar-brand">
+            <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo">
+          </a>
+        </div>
+        
+        <div id="headerNavbar" class="border-top flex-grow-1 d-flex align-items-center">
+          <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
+            <li class="nav-item px-2 m-1">
+              <a href="http://vlab.co.in">HOME</a>
+            </li>
+            <li class="nav-item px-2 m-1">
+              <a href="http://vlab.co.in/participating-institutes">PARTNERS</a>
+            </li>
+            <li class="nav-item px-2 m-1">
+              <a href="http://vlab.co.in/contact-us">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+      <div class="row flex-grow-1 px-4 d-flex flex-nowrap">
+        <div class="nav flex-column sidebar flex-shrink-0" id="menu">
+            <div>
+              <div class="d-flex">
+                <a href="index.html" class="p-2 ">
+                  Aim
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="theory.html" class="p-2  current-item ">
+                  Theory
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="pretest.html" class="p-2 ">
+                  Pretest
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="procedure.html" class="p-2 ">
+                  Procedure
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="simulation.html" class="p-2 ">
+                  Simulation
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="posttest.html" class="p-2 ">
+                  Posttest
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="references.html" class="p-2 ">
+                  References
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="feedback.html" class="p-2 ">
+                  Feedback
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+        </div>        <div class="vlabs-page-content px-4 pb-4 flex-grow-1 markdown-body">
+          <div class="text-center">
+            <h2 id="simulation-of-fused-deposition-modelling-fdm-process">Simulation of Fused Deposition Modelling (FDM) process.</h2>
+        
+          </div>
+            <h2 id="introduction">Introduction</h2>
+        <ul>
+        <li><p>Fused Deposition Modelling or FDM technique has revolutionalized the world of Additive Manufacturing (AM), as AM setups before the rise of FDM based 3D printers were large, expensive, and limited in production capacity. FDM printers are comparatively simpler and affordable.</p>
+        </li>
+        <li><p>In FDM process the desired 3D shapes are made by extrusion of molten plastic through a nozzle in a layer by layer fashion. It can be used for rapid prototyping concept parts, printing functional models, rapid tooling in casting industry, and end use parts.</p>
+        </li>
+        <li><p>Leading manufacturers of commercialized FDM 3D printers are Stratasys (Mojo, Fortus, MakerBot), Prusa &amp; Creality. </p>
+        </li>
+        </ul>
+        <h2 id="principle">Principle</h2>
+        <ul>
+        <li>FDM process is based on molten material extrusion. Plastic filament is heated and melted inside the extruder and then molten material is extruded through the nozzle. Layers over the layers are laid in order to make the desired object.</li>
+        </ul>
+        <h2 id="description">Description</h2>
+        <ul>
+        <li>In FDM process, thermoplastic material in the form of filament is unwound from a spool and is fed into a extruder assembly where it is melted in liquefier and this semi-liquid material is laid down on the build platform by extrusion process through a nozzle according to computer-controlled paths, where it cools and solidifies.</li>
+        <li>In this manner a cross section of an object is 3d printed each layer at a time. The solid portion of the incoming filament serves as a “plunger” to extrude the material through a nozzle. The extrusion nozzle or the 3d printed object (or both) are moved along 3 axis by a computer-controlled mechanism. </li>
+        <li>Stepper motors are employed for all these movements, as well as for pushing the filament into the extruder. Layer height determines the quality of the 3D print. </li>
+        <li>Some FDM 3D printers can have two or more print heads that can print in multiple different colors and use support for overhanging areas of a complex 3D print. </li>
+        <li>Medical sciences has made many breakthroughs with the support of FDM technology, today we are capable of replicating functional human organs and implant artificially.</li>
+        <li>Commonly used materials in FDM printers are ABS(acrylonitrile-butadlene-styrene), PLA (Polylactic Acid) &amp; PETG (Polyethylene terephthalate glycol).</li>
+        </ul>
+        <h2 id="advantages">Advantages</h2>
+        <ul>
+        <li>FDM machines are safe, reliable, easy to use, and office friendly. There is no toxic material,powder handling, intense heat, or laser involved.</li>
+        <li>Minimum material wastage because FDm is an extrusion-based process, only the required amount of filament material is used to create the part and to create the supports.</li>
+        <li>FDM process software allows extensive possibilities of tool path build styles used in each layer by altering appropriate process variables such as raster width, fill pattern, raster angle, and air gaps.</li>
+        <li>Variety of engineering polymers are available commercially with different strengths and mechanical properties. ABS (acrylonitrile-butadlene-styrene) and PC (Polycarbonates) are common engineering materials. Hence, parts made in these materials are good for functional testing. </li>
+        <li>FDM machines use feedstock filaments in spools or cartridges. Therefore, it requires minimal effort to change material on the FDM machine.</li>
+        <li>Supports can easily be snapped off by hand from models.</li>
+        </ul>
+        <h2 id="applications">Applications</h2>
+        <ol>
+        <li>   Education: Fused Deposition Modelling can serve as a tool to enhance the learning ability of the students via creating a physically interactive environment with what they learn. This technology would serve as a very interactive tool for learning in practical courses like Engineering and Medical courses.</li>
+        <li>   Modelling &amp; Prototyping: This technology helps industrialists and researchers in prototyping most complex of geometries in a very time and cost-efficient manner with the best of accuracy.</li>
+        <li>   Medical: Medical sciences has made many breakthroughs with the support of FDM technology, today we are capable of replicating functional human organs and implant artificially.</li>
+        <li>   Space Technology: The zero gravity FDM printer has made production possible in space, this would enable the astronauts to print incidental things required and also their food in the outer space. NASA &amp; Piper Aircraft employ the most exciting FDM (3D printing) applications in the world 70 Parts having complex shapes durable enough for Martian terrain were built by FDM Parts on NASA’s rover include flame-retardant vents and housings, camera mounts, large pod doors, a large part that functions as a front bumper, and many custom fixtures</li>
+        </ol>
+        <h2 id="limitations">Limitations:</h2>
+        <ul>
+        <li>Because of the layer-by-layer deposition process, the staircase effect on sloping or curved surfaces generally causes a grainy surface finish. However, most FDM systems provide good, acceptable accuracy and surface finish for most engineering design applications.</li>
+        <li>While the lead time to produce AM parts via FDM is relatively short, the per unit manufacturing time is much longer than conventional mass production techniques. In conventional FDM the nozzle diameter is small to maximize the resolution of each layer.</li>
+        <li>FDM material needs to be made in filament form of required diameter (approximately 1.7 mm) and required mechanical and rheological properties. Any new material to be introduced must also meet these requirements.</li>
+        <li>As the parts are built by depositing extruded rasters, the mechanical properties of the parts are not the same in all directions.</li>
+        <li>To change extruder nozzle, it is require to Disassemble complete extruder assembly. Thus, it  is very difficult to change extruder nozzle in FDM.</li>
+        </ul>
+        
+        </div>
+      </div>
+    </div>
+    <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+      <div class="row px-5">
+        <div class="col d-flex flex-column">
+          <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+          <a href="http://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+          <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+          <a href="http://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+        </div>
+        <div class="col d-flex flex-column">
+          <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+          <span> Phone: General Information: 011-26582050 </span>
+          <span> Email: support@vlabs.ac.in </span>
+        </div>
+        <div class="col d-flex flex-column">
+          <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+          <div class="social-links">
+    	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+    	  <i class="fa fa-twitter"></i>
+    	</a>
+    	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+    	  <i class="fa fa-facebook"></i>
+    	</a>
+    	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+    	  <i class="fa fa-youtube"></i>
+    	</a>
+    	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+    	  <i class="fa fa-linkedin"></i>
+    	</a>
+          </div>
+        </div>
+      </div>
+      <div class="m-0 py-2 text-center" style='font-family: "Open Sans", sans-serif; background: #212121;'>
+        <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+        &nbsp;&amp;&nbsp;
+        <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+      </div>
+    </footer>
+
+      <script src="./assets/js/toggleSidebar.js"></script>
+      
+  </body>
+</html>

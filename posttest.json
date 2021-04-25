@@ -1,0 +1,46 @@
+[{
+	"question": "FDM technique is based on the principle of:",
+	"answers": {
+		"a": "Binding of material.",
+		"b": "Polymerization of photosensitive resin.",
+		"c": "Extrusion of molten plastics.",
+		"d": "None of these."
+	},
+	"correctAnswer": "c"
+}, {
+	"question": " What is function of extruder nozzle:",
+	"answers": {
+		"a": "To heat the filament.",
+		"b": "Level the bed.",
+		"c": "To extrude the material.",
+		"d": "None of the above."
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Which of the following material/materials can be used for FDM 3D printing:",
+	"answers": {
+		"a": "PLA.",
+		"b": "Nylon fibres.",
+		"c": "Wood.",
+		"d": "All of these."
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "How many types FDM printers are available:",
+	"answers": {
+		"a": "3",
+		"b": "2",
+		"c": "5",
+		"d": "4"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Which of the following is an not an advantage of using FDM process:",
+	"answers": {
+		"a": "Comparatively fast than other AM processes.",
+		"b": "Non-toxic compounds are used.",
+		"c": "Excellecent surface finish.",
+		"d": "Variety of material available."
+	},
+	"correctAnswer": "c"
+}]
